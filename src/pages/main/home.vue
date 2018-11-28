@@ -1,6 +1,5 @@
 <template>
   <div>
-    <router-view></router-view>
     <el-container>
       <el-header>Header</el-header>
       <el-container>
@@ -26,23 +25,23 @@ export default {
 </script>
 
 <style scoped>
+.el-container {
+  height: calc(100vh - 60px);
+}
 .el-header {
   background-color: #b3c0d1;
-  color: #333;
   text-align: center;
   line-height: 60px;
 }
 
 .el-aside {
-  background-color: #d3dce6;
-  color: #333;
   text-align: center;
   line-height: 200px;
+  background-color: #b3c0d1;
 }
 
 .el-main {
   background-color: #e9eef3;
-  color: #333;
   text-align: center;
   line-height: 160px;
 }
