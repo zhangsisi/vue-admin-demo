@@ -1,14 +1,13 @@
 <template>
   <div>
-    <router-view></router-view>
+    我是业务内容
   </div>
 </template>
 
 <script>
 
 export default {
-  components: {
-  }
+
 }
 </script>
 
